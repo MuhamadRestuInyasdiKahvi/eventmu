@@ -20,21 +20,21 @@ const items = [
     },
     {
         id: "2",
-        desc: "“Woahh, karena website ini saya jadi tau banyak event menarik yang terdapat di sekitaran Jabodetabek. Saya sendiri sangat terbantu ketika mengunjungi website ini.”",
+        desc: "“Eventmu keren banget saya suka mencari informasi disini.”",
         img: "p4.jpg",
         author: "Restu Kahvi",
         address: "Bandung, Indonesia"
     },
     {
         id: "3",
-        desc: "“Woahh, karena website ini saya jadi tau banyak event menarik yang terdapat di sekitaran Jabodetabek. Saya sendiri sangat terbantu ketika mengunjungi website ini.”",
+        desc: "“Eventmu sangat bermanfaat untuk saya, dari sini saya dapat informasi terkait event secara cepat dan mudah.”",
         img: "p2.jpg",
         author: "Assiva Syahrani",
         address: "Jakarta, Indonesia"
     },
     {
         id: "4",
-        desc: "“Woahh, karena website ini saya jadi tau banyak event menarik yang terdapat di sekitaran Jabodetabek. Saya sendiri sangat terbantu ketika mengunjungi website ini.”",
+        desc: "“Ga ragu lagi berkunjung ke website eventmu soalnya bermanfaat banget untuk cari referensi liburan keluarga.”",
         img: "p1.jpg",
         author: "Gandi Juhendra",
         address: "Padang, Indonesia"
