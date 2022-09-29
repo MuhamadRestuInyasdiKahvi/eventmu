@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+svg.logo-style-1 .logo2_svg__color-1{
+    @apply fill-purple-3
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #fff !important;
+}
