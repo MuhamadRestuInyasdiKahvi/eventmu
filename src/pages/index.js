@@ -121,7 +121,7 @@ export default function Home() {
               </h3>
               <p className='text-center font-sans text-gray-200 lg:px-14 text-sm mb-12'>
                 Untuk dapat melakukan promosi pada website eventmu, hubungi :
-                0813-6352-3549 <br/>(Admin)
+                0813-6352-3549 <br />(Admin)
               </p>
             </div>
             <div className='w-full lg:w-4/12 bg-gradient-to-tr from-purple-1 to-purple-2 rounded-3xl px-14 hover:scale-110 transform transition duration-500'>
@@ -189,75 +189,23 @@ export default function Home() {
                   <span className='w-4 lg:w-5 h-4 lg:h-5'>
                     <Wa />
                   </span>
-                  <p className='text-gray-300 font-sans text-sm lg:text-base'>0813-6352-3549</p>
+                  <p className='text-gray-300 font-sans text-sm lg:text-base'>0816-6342-3249</p>
                 </div>
-
-                <div className='flex gap-2 justify-center items-center'>
-                  <span className='w-4 lg:w-5 h-4 lg:h-5'>
-                    <Ig />
-                  </span>
-                  <p className='text-gray-300 font-sans text-sm lg:text-base'>Eventmu</p>
-                </div>
+                
+                <Link href="https://instagram.com/eventmu2022" target="_blank">
+                  <div className='flex gap-2 justify-center items-center cursor-pointer'>
+                    <span className='w-4 lg:w-5 h-4 lg:h-5'>
+                      <Ig />
+                    </span>
+                    <p className='text-gray-300 font-sans text-sm lg:text-base'>Eventmu</p>
+                  </div>
+                </Link>
               </div>
 
             </div>
           </div>
         </div>
       </section>
-
-
-
-
-
-
-
-      {/* <section className='relative h-screen'><se
-        <span className='absolute w-5/12 h-40 -top-10'>
-          <DecorIntersect1 className="fill-purple-1" />
-        </span>
-
-        <div className='max-w-7xl mx-auto px-4'>
-          <div className='flex'>
-            <div className='w-6/12 pt-52'>
-              img/slider
-            </div>
-            <div className='w-6/12 pt-52'>
-              <h1 className='text-gray-900 font-serif text-7xl leading-[89px] tracking-tighter'>
-                <span className='relative'>
-                  Eventmu
-                  <span className='absolute -top-8 left-0 -z-10'>
-                    <DecorHeroText1 className="w-[326px] h-[75px]" />
-                  </span>
-                </span> dulu, bersenang-senang kemudian
-              </h1>
-              <p className='font-sans text-base text-gray-500 mb-7'>Temukan tempat terbaik untuk destinasi liburan kamu.</p>
-              <Link href="/">
-                <a className='py-2 px-6 bg-gradient-to-r from-gray-1 to-purple-2 rounded-3xl text-white'>Read More</a>
-              </Link>
-            </div>
-          </div>
-        </div>
-        <span className='absolute w-full h-[363px] bottom-0'>
-          <DecorIntersect2 />
-        </span>
-
-      </section> */}
-
-      {/* <input type="text" placeholder="Seach..." onChange={event => { searchTerm(event.target.value) }} />
-        {items.filter((val) => {
-          if (searchTerm == "") {
-            return val
-          } else if (val.author.toLowerCase().includes(searchTerm.toLowerCase())) {
-            return val
-          }
-        }).map((val, key) => {
-          return(
-            <div className="user" key={key}>
-              <p>{val.author}</p>
-            </div>
-          );
-        })} */}
-
     </div>
   )
 }
